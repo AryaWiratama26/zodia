@@ -1,3 +1,4 @@
+import { main } from 'framer-motion/client';
 import './App.css'
 import { motion } from 'framer-motion'
 
@@ -25,7 +26,7 @@ function Navbar() {
   )
 }
 
-function Katalog() {
+function Card() {
   return (
     <div className='card'>
       <img src="/assets/sagitarius1.jpeg" alt="" />
@@ -35,6 +36,17 @@ function Katalog() {
     </div>
   )
 }
+
+function Katalog() {
+  return (
+    <main>
+      <Card />
+      <Card />
+      <Card />
+    </main>
+  );
+}
+
 
 function App() {
   return (
