@@ -3,14 +3,14 @@ import './App.css'
 
 function Navbar() {
   return (
-    <header>
+    <header className='header'>
 
-      <div>
-        {/* <img src="/" alt="" /> */}
+      <div className='logo'>
+        <img src="/assets/logo-zodia.png" alt="" />
         <h1>Zodia</h1>
       </div>
 
-      <nav>
+      <nav className='navbar'>
         <ul>
           <li><a href="">Home</a></li>
           <li><a href="">Katalog</a></li>
