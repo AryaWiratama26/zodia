@@ -25,8 +25,26 @@ function Navbar() {
   )
 }
 
+function Katalog() {
+  return (
+    <div className='card'>
+      <img src="/assets/sagitarius1.jpeg" alt="" />
+      <h3>Sagitarius</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Harum rerum repudiandae consequuntur officia quas veritatis?</p>
+    </div>
+  )
+}
+
 function App() {
-  return <Navbar />  
+  return (
+    <>
+    <Navbar /> 
+    <Katalog />
+    </>
+  );
+
 }
 
 export default App
+
