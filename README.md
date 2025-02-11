@@ -1,3 +1,5 @@
 # Zodia
 
-Clothing Brand
+Clothing Brand bertema zodiak
+
+Coming Soon!!!
