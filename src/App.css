@@ -43,3 +43,8 @@
   font-size: 1.5rem;
   color: var(--white);
 }
+
+.header .navbar ul li a:hover {
+  color: var(--super-light);
+  transition: .2s linear;
+}
