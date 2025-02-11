@@ -1,4 +1,3 @@
-import { main } from 'framer-motion/client';
 import './App.css'
 import { motion } from 'framer-motion'
 
@@ -46,7 +45,6 @@ function Katalog() {
     </main>
   );
 }
-
 
 function App() {
   return (
