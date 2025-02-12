@@ -1,3 +1,4 @@
+import { div, main } from 'framer-motion/client';
 import './App.css'
 import { motion } from 'framer-motion'
 
@@ -54,10 +55,28 @@ function Katalog() {
   );
 }
 
+function Home() {
+  return (
+
+    <main className='home'> 
+      <div className='logo-zodia'>
+        <img src="/assets/logo-zodia.png" alt="" />
+      </div>
+
+      <div className='home-desc'>
+        <h1>Zodia</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam dolorum, minus cupiditate fugit saepe ad corporis quas hic recusandae
+          in ipsum aliquam excepturi a possimus mollitia, fugiat repellendus laudantium corrupti!</p>
+      </div>
+    </main>
+  );
+}
+
 function App() {
   return (
     <>
     <Navbar /> 
+    <Home />
     <Katalog />
     </>
   );

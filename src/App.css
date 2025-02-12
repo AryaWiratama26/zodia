@@ -106,3 +106,30 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.home {
+  padding: 30px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+  background-color: var(--dark-blue);
+  color: var(--white);
+  border-bottom: 1px solid var(--super-light);
+  flex: 1;
+}
+
+.home .logo-zodia {
+  flex: 1 ;
+}
+
+.home .home-desc {
+  flex: 2;
+}
+
+.home .home-desc h1 {
+  font-size: 3rem;
+}
+
+.home .home-desc  p {
+  font-size: 1.2rem;
+}
