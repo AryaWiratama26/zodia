@@ -38,10 +38,13 @@ function Card() {
 
 function Katalog() {
   return (
-    <main>
-      <Card />
-      <Card />
-      <Card />
+    <main className='katalog'>
+
+      <div>
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </main>
   );
 }
