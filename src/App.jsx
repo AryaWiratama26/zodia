@@ -29,9 +29,10 @@ function Card() {
   return (
     <div className='card'>
       <img src="/assets/sagitarius1.jpeg" alt="" />
-      <h3>Sagitarius</h3>
+      <h2>Sagitarius</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
         Harum rerum repudiandae consequuntur officia quas veritatis?</p>
+      <a href="#">Beli Sekarang!</a>
     </div>
   )
 }
