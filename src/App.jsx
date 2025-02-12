@@ -40,10 +40,14 @@ function Katalog() {
   return (
     <main className='katalog'>
 
-      <div>
+      <h1>Katalog</h1>
+
+      <div className='p-card'>
         <Card />
         <Card />
         <Card />
+        <Card />
+
       </div>
     </main>
   );

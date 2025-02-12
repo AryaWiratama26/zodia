@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
 :root {
   --dark-blue : #091D36;
   --med-blue: #3A4E7A;
@@ -14,7 +16,7 @@
 }
 
 body {
-  font-family: 'Times New Roman';
+  font-family: "Cinzel", serif;
 }
 
 .header {
@@ -24,6 +26,7 @@ body {
   padding: 30px 60px;
   background-color: var(--dark-blue);
   color: var(--white);
+  border-bottom: 1px solid var(--super-light);
 }
 
 .header .logo {
@@ -63,8 +66,31 @@ body {
   border-radius: 15px;
   text-align: center;
   height: auto;
+  color: var(--white);
+  background-color: var(--light-blue);
 }
 
 .card img {
   width: 100%;
+}
+
+.katalog {
+  padding: 30px 60px;
+  text-align: center;
+  align-items: center;
+  background-color: var(--dark-blue);
+}
+
+.katalog > h1 {
+  color: var(--super-light);
+  font-size: 2.8rem;
+}
+
+.katalog .p-card {
+  margin-top: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
 }
