@@ -91,6 +91,7 @@ body {
   text-align: center;
   align-items: center;
   background-color: var(--dark-blue);
+  border-bottom: 1px solid var(--super-light);
 }
 
 .katalog > h1 {
@@ -132,4 +133,36 @@ body {
 
 .home .home-desc  p {
   font-size: 1.2rem;
+}
+
+.footer {
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+.footer .cp p {
+  font-size: 1.3rem;
+
+}
+
+.footer .medsos ul{
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  padding: 0;
+}
+
+.footer .medsos li {
+  display: flex;
+  gap: 1rem;
+}
+
+
+.footer .medsos .icons {
+  font-size: 2rem;
+  color: var(--white);
 }

@@ -1,6 +1,7 @@
-import { div, main } from 'framer-motion/client';
+import { div, footer, main } from 'framer-motion/client';
 import './App.css'
 import { motion } from 'framer-motion'
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 function Navbar() {
   return (
@@ -66,9 +67,32 @@ function Home() {
       <div className='home-desc'>
         <h1>Zodia</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam dolorum, minus cupiditate fugit saepe ad corporis quas hic recusandae
-          in ipsum aliquam excepturi a possimus mollitia, fugiat repellendus laudantium corrupti!</p>
+          in ipsum aliquam excepturi a possimus mollitia, fugiat repellendus laudantium corrupti! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, possimus!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, culpa?</p>
       </div>
     </main>
+  );
+}
+
+function Footer() {
+  return (
+    <footer className='footer'>
+
+      <div className='cp'>
+        <p>© {new Date().getFullYear()} Zodia. All rights reserved.</p>
+      </div>
+
+      <div className='medsos'>
+        <ul>
+          <li>
+            <a href="#" className='icons'><FaFacebook /></a>
+            <a href="#" className='icons'><FaInstagram /></a>
+            <a href="#" className='icons'><FaTwitter /></a>
+          </li>
+        </ul>
+      </div>
+
+    </footer>
   );
 }
 
@@ -78,6 +102,7 @@ function App() {
     <Navbar /> 
     <Home />
     <Katalog />
+    <Footer />
     </>
   );
 
