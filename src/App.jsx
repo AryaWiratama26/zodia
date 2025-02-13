@@ -99,14 +99,6 @@ function Footer() {
   );
 }
 
-function Coba() {
-  return (
-    <div>
-      <p>Hello</p>
-      <a href="#" className='h'><MdMenu/></a>
-    </div>
-  );
-}
 
 function App() {
   return (
@@ -115,7 +107,6 @@ function App() {
     <Home />
     <Katalog />
     <Footer />
-    <Coba />
     </>
   );
 
