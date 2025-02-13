@@ -96,6 +96,15 @@ function Footer() {
   );
 }
 
+function Coba() {
+  return (
+    <div>
+      <p>Hello</p>
+      <a><i data-feather="circle"></i></a>
+    </div>
+  );
+}
+
 function App() {
   return (
     <>
@@ -103,6 +112,7 @@ function App() {
     <Home />
     <Katalog />
     <Footer />
+    <Coba />
     </>
   );
 
