@@ -2,6 +2,8 @@ import { div, footer, main } from 'framer-motion/client';
 import './App.css'
 import { motion } from 'framer-motion'
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaHamburger } from 'react-icons/fa';
+import { MdMenu } from 'react-icons/md';
 
 function Navbar() {
   return (
@@ -100,7 +102,7 @@ function Coba() {
   return (
     <div>
       <p>Hello</p>
-      <a><i data-feather="circle"></i></a>
+      <a href="#" className='h'><MdMenu/></a>
     </div>
   );
 }
