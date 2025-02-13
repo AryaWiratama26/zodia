@@ -3,6 +3,7 @@ import './App.css'
 import { motion } from 'framer-motion'
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { MdMenu } from 'react-icons/md';
+import { useState } from 'react';
 
 
 function Navbar() {
