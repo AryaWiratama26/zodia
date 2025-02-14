@@ -69,9 +69,11 @@ function Home() {
 
       <div className='home-desc'>
         <h1>Zodia</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam dolorum, minus cupiditate fugit saepe ad corporis quas hic recusandae
-          in ipsum aliquam excepturi a possimus mollitia, fugiat repellendus laudantium corrupti! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, possimus!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, culpa?</p>
+        <p>
+            A gift written in the stars 
+            <br/>
+            because it's made for you, inspired by you
+        </p>
       </div>
     </main>
   );
