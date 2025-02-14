@@ -70,9 +70,9 @@ function Home() {
       <div className='home-desc'>
         <h1>Zodia</h1>
         <p>
-            A gift written in the stars 
+            A gift written in the stars
             <br/>
-            because it's made for you, inspired by you
+              because it's made for you, inspired by you
         </p>
       </div>
     </main>
