@@ -1,4 +1,4 @@
-<!-- # Zodia
+# Zodia
 
 Clothing Brand bertema zodiak
 
@@ -15,4 +15,4 @@ Belum Responsive
 ![2](/ss/2.png)
 
 
-Coming Soon!!! -->
+Coming Soon!!!
