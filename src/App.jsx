@@ -72,7 +72,7 @@ function Home() {
         <p>
             A gift written in the stars
             <br/>
-              because it's made for you, inspired by you
+            <b>because it's made for you, inspired by you</b>
         </p>
       </div>
     </main>
