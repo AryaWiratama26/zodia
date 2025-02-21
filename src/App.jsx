@@ -7,6 +7,9 @@ import { useState } from 'react';
 
 
 function Navbar() {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className='header'>
       <motion.div 
@@ -15,16 +18,19 @@ function Navbar() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <img src="/assets/logo-zodia.png" alt="Logo Zodia" />
+        <img src="/assets/Logo-Zodia-2.png" alt="Logo Zodia" />
         <h1>Zodia</h1>
       </motion.div>
 
+        
       <nav className='navbar'>
-        <ul>
+        <ul className={menuOpen ? "active" : ""}>
           <li><a href="#">Home</a></li>
           <li><a href="#">Katalog</a></li>
-          <li><a href="#">Our Medsos</a></li>
+          <li><a href="#">Medsos</a></li>
         </ul>
+        
+        <li className='ham-menu'><a href="#" onClick={() => setMenuOpen(!menuOpen)}><MdMenu></MdMenu></a></li>
       </nav>
     </header>
   )
