@@ -1,7 +1,7 @@
 import { div, footer, main } from 'framer-motion/client';
 import './App.css'
 import { motion } from 'framer-motion'
-import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaTwitter, FaTiktok} from 'react-icons/fa';
 import { MdMenu } from 'react-icons/md';
 import { useState } from 'react';
 
@@ -25,9 +25,9 @@ function Navbar() {
         
       <nav className='navbar'>
         <ul className={menuOpen ? "active" : ""}>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Katalog</a></li>
-          <li><a href="#">Medsos</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#katalog">Katalog</a></li>
+          <li><a href="#footer">Medsos</a></li>
         </ul>
         
         <li className='ham-menu'><a href="#" onClick={() => setMenuOpen(!menuOpen)}><MdMenu></MdMenu></a></li>
@@ -50,7 +50,7 @@ function Card() {
 
 function Katalog() {
   return (
-    <main className='katalog'>
+    <main className='katalog' id='katalog'>
 
       <h1>Katalog</h1>
 
@@ -68,7 +68,7 @@ function Katalog() {
 function Home() {
   return (
 
-    <main className='home'> 
+    <main className='home' id='home'> 
       <div className='logo-zodia'>
         <img src="/assets/logo-zodia.png" alt="" />
       </div>
@@ -87,7 +87,7 @@ function Home() {
 
 function Footer() {
   return (
-    <footer className='footer'>
+    <footer className='footer' id='footer'>
 
       <div className='cp'>
         <p>© {new Date().getFullYear()} Zodia. All rights reserved.</p>
@@ -96,9 +96,9 @@ function Footer() {
       <div className='medsos'>
         <ul>
           <li>
-            <a href="#" className='icons'><FaFacebook /></a>
-            <a href="#" className='icons'><FaInstagram /></a>
-            <a href="#" className='icons'><FaTwitter /></a>
+            <a href="https://www.tiktok.com/@zodia.apparel?" className='icons'><FaTiktok /></a>
+            <a href="https://www.instagram.com/zodia.n.co?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className='icons'><FaInstagram /></a>
+            <a href="mailto:apparelzodia@gmail.com" className='icons'><FaFacebook /></a>
           </li>
         </ul>
       </div>
