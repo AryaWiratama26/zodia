@@ -18,7 +18,7 @@ function Navbar() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <img src="/assets/Logo-Zodia-2.png" alt="Logo Zodia" />
+        <img src="/zodia/assets/Logo-Zodia-2.png" alt="Logo Zodia" />
         <h1>Zodia</h1>
       </motion.div>
 
@@ -39,7 +39,7 @@ function Navbar() {
 function Card() {
   return (
     <div className='card'>
-      <img src='assets/sagitarius1.jpeg' alt="" />
+      <img src='/zodia/assets/sagitarius1.jpeg' alt="" />
       <h2>Sagitarius</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
         Harum rerum repudiandae consequuntur officia quas veritatis?</p>
@@ -70,7 +70,7 @@ function Home() {
 
     <main className='home' id='home'> 
       <div className='logo-zodia'>
-        <img src="/assets/logo-zodia.png" alt="" />
+        <img src="/zodia/assets/logo-zodia.png" alt="" />
       </div>
 
       <div className='home-desc'>
