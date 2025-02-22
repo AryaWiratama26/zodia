@@ -39,7 +39,7 @@ function Navbar() {
 function Card() {
   return (
     <div className='card'>
-      <img src="/assets/sagitarius1.jpeg" alt="" />
+      <img src='assets/sagitarius1.jpeg' alt="" />
       <h2>Sagitarius</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
         Harum rerum repudiandae consequuntur officia quas veritatis?</p>
