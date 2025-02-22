@@ -21,8 +21,6 @@ html, body {
   touch-action: pan-y;
 }
 
-
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -83,6 +81,12 @@ html, body {
   height: auto;
   color: var(--dark-blue);
   background-color: var(--white);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .card img {

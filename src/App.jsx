@@ -43,7 +43,7 @@ function Card() {
       <h2>Sagitarius</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
         Harum rerum repudiandae consequuntur officia quas veritatis?</p>
-      <a href="#">Beli Sekarang!</a>
+      <a href="https://tokopedia.com">Beli Sekarang!</a>
     </div>
   )
 }
